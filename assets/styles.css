@@ -135,11 +135,17 @@ form p a:hover {
     float: none;
     width: 100%;
     margin-right: 0;
+    margin-bottom: 2em;
   }
   .footer ul li {
     float: none;
     width: 100%;
     margin-right: 0;
+    margin-bottom: 2em;
   }
+  }
+  .footer ul li ul li {
+    margin-right: 0;
+    margin-bottom: 0;
   }
 }
