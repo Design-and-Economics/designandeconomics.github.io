@@ -15,17 +15,49 @@ h2 {
 a {
   text-decoration: none;
 }
-#wrapper {
-}
 .header {
   padding: 0.75em 2em 0.25em 2em;
   border-bottom: #ddd solid 1px;
 }
-.content {
+.header a h1 {
+  float: left;
+}
+ul.nav {
+  float: right;
+}
+ul.nav li {
+  display: inline-block;
+  margin: 0.5em;
+}
+ul.nav li a {
+  color: #000;
+  font-variation-settings: "wght" 600, "wdth" 100;
+}
+ul.nav li a:hover {
+  color: #FE3938;
+}
+.header::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 .hero {
   padding: 1em 2em;
-  line-height: 1.3em;
+}
+.two-column-page {
+  padding: 1em 2em;
+}
+.two-column-page ul {
+  list-style-type: none;
+}
+.two-column-page ul li {
+  float: left;
+  width: 50%;
+}
+.two-column-page ul::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 .elements {
   padding: 4em 2em;
@@ -122,6 +154,40 @@ form p a:hover {
   font-variation-settings: "wght" 300;
   line-height: 1.1em;
 }
+.sub-page-copy {
+  margin:1em 0;
+  font-size:4em;
+  font-family: "gyst-variable"  , sans-serif;
+  font-variation-settings: "wght" 300;
+  line-height: 1.1em;
+}
+.sidebar-copy ul {
+  list-style-type: none;
+  margin: 2em 0;
+  line-height: 1.1em;
+}
+.sidebar-copy ul li {
+  float: left;
+  margin-right: 5%;
+  padding-top: 1em;
+  border-top: 1px solid;
+  width: 45%;
+  font-size:1.5em;
+  line-height: 1.3em;
+}
+.sidebar-copy ul::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sidebar-copy a {
+  border-bottom: 1px dotted;
+  color:#000
+}
+.sidebar-copy a:hover {
+  border-bottom: 1px solid;
+  color:#FE3938;
+}
 .red {
   color:#FE3938
 }
@@ -130,6 +196,16 @@ form p a:hover {
   .main-copy {
     font-size:2.5em;
     padding-right: 0;
+  }
+  .sub-page-copy {
+    font-size:2.5em;
+    padding-right: 0;
+  }
+  .sidebar-copy ul li {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1em;
   }
   .elements ul li {
     float: none;
