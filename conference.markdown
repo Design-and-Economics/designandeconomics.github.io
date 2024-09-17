@@ -6,7 +6,7 @@ title: Design and Economics
 layout: home
 ---
 <div class="hero">
-<div class="sub-page-copy">We're planning our first conference for Autumn 2024. Get involved below.</div>
+<div class="sub-page-copy">Our first conference will take place in Spring 2025 in London. Get involved below.</div>
 <div class="sidebar-copy">
 <ul>
 <li>💡 Submit your idea for a talk or workshop through <a href="https://forms.gle/TP8AoCmfMeaLv25U7" target="_blank">this Google Form</a>. If you're just exploring an early-stage idea you can still use the form or you can <a href="mailto:conference@designandeconomics.com">email us</a> and we'll support you to develop it.</li>
