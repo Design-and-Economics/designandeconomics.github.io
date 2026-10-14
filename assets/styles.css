@@ -63,11 +63,12 @@ ul.nav li a:hover {
   padding: 4em 2em;
   background-color:#FE3938;
 }
-.elements ul {
+.elements {
   list-style-type: none;
   color: #fff;
 }
 .elements ul li {
+  list-style-type: none;
   float: left;
   width: 31.33%;
   margin-right: 2%;
@@ -93,6 +94,9 @@ ul.nav li a:hover {
   max-width: 100%;
   margin-bottom: 1em;
   border-radius: 0.5em;
+}
+#toolkit {
+  background-color:#000000;
 }
 p.intro {
   font-size: 1.5em;
